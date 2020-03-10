@@ -76,3 +76,99 @@ if num & 1 :
     print(num, "is an odd num")
 else:
     print(num, "is an even num")
+
+'''
+Write a program to count total zeros and ones in a binary number
+'''
+count_zero = 0
+count_one = 0
+binary_num = list()
+decimal_num = int(input("enter number"))
+
+
+'''
+Create a tuple (1,2,3,4,5,6), then remove element 5 from it.
+'''
+tuple1 = tuple((1,2,3,4,5,6))
+print(tuple1)
+del tuple1
+tuple1 = (1,2,3,4,6)
+print(tuple1)
+
+'''
+Write a program to toggle nth bit of a number.
+'''
+num = int(input("number"))
+n = int(input("position of bit to toggle"))
+print("result after toggling")
+print(num ^ (1 << (n-1)))   # xor with the position bit to toggle
+
+'''
+You are required to write a program to sort the (name, age, height) tuples by ascending order where name is string, age and height are numbers.
+'''
+n = int(input("enter the limit"))
+list1 = list()
+for i in range(0,n):
+    print("enter details for {} person", i+1 )
+    name = input("enter name")
+    age = int(input("enter age"))
+    score = int(input("enter score"))
+    t1 = (name,age,score)
+    list1.append(t1)
+print("given list is")
+print(list1)
+
+list1.sort()
+print("after sorting list is")
+print(list1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
